@@ -32,7 +32,7 @@ plt.rcParams.update({
 # ============================================================
 # Paths and constants
 # ============================================================
-BASE_DIR = Path(r"C:/python/2")
+BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = BASE_DIR / "GradientBoost.pkl"
 
 FEATURE_ORDER = ["Hsp90α", "MCV", "LMR", "ALB"]
